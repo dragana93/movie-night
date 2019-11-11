@@ -1,4 +1,5 @@
-<ul *ngIf="movies$ | async as movies">
-  <li *ngFor="let movie of movies"> {{movie.name}}<br /> <img src="{{movie.image}}">
-  </li>
-</ul>
+<div *ngIf="movies$ | async as movies">
+  <span *ngFor="let movie of movies">
+    <a [routerLink]="movie.id"><img [src]="movie.image" /></a>
+  </span>
+</div>
