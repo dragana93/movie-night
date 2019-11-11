@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { of } from "rxjs";
-import { movies } from "../models/movie.module";
+import { movies } from "../movie/models/movie.module";
 
 @Injectable({
   providedIn: "root"
