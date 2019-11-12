@@ -19,6 +19,10 @@ export class MovieService {
     return this.http.get<Movie>(`${this.ROOT_URL}/${id}`);
   }
 
+  addMovie(movie: Movie) {
+    return this.http.post(this.ROOT_URL, movie);
+  }
+
   // getMovies() {
   //   return of(movies);
   // }
