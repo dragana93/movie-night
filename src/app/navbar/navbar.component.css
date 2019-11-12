@@ -1,10 +1,32 @@
 nav {
   background: linear-gradient(to right, rgb(190, 194, 233), rgb(108, 178, 243));
   padding: 10px;
+  display: flex;
+  justify-content: space-between;
 }
 
 h1 {
-  margin: 0px;
+  margin: 5px;
   padding: 0px;
   color: white;
+}
+
+button {
+  border: 0px;
+  background: linear-gradient(to right, rgb(127, 171, 243), rgb(79, 132, 247));
+  font-size: 18px;
+  color: white;
+  margin-right: 14px;
+  height: 40px;
+  width: 100px;
+  box-shadow: 2px 2px 0px black;
+  border-radius: 5px;
+  transition: 1s cubic-bezier(0.165, 0.84, 0.44, 1);
+}
+
+.button:hover {
+  border-radius: 0px;
+  background: black;
+  box-shadow: 2px 2px 0px #448bfb;
+  transform: translateY(-2px) scale(1 1);
 }
