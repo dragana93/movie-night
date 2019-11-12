@@ -1,6 +1,6 @@
 import { Injectable } from "@angular/core";
 import { of } from "rxjs";
-import { movies, Movie } from "../movie/models/movie.module";
+import { Movie } from "../movie/models/movie.module";
 import { HttpClient } from "@angular/common/http";
 
 @Injectable({
@@ -19,11 +19,11 @@ export class MovieService {
     return this.http.get<Movie>(`${this.ROOT_URL}/${id}`);
   }
 
-  getMovies() {
-    return of(movies);
-  }
+  // getMovies() {
+  //   return of(movies);
+  // }
 
-  movie(id: number) {
-    return of(movies.find(movie => +movie.id === +id));
-  }
+  // movie(id: number) {
+  //   return of(movies.find(movie => +movie.id === +id));
+  // }
 }
