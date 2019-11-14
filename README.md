@@ -5,4 +5,5 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Development server
 
 start server: npm run api
+
 start angular app: ng serve
