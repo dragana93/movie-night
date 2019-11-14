@@ -27,6 +27,62 @@
       "genre": "Action & adventure",
       "image": "assets/images/maleficent.jpg",
       "releaseYear": "2019"
+    },
+    {
+      "id": 5,
+      "name": "Mr. Robot",
+      "genre": "Drama",
+      "image": "assets/images/mrrobot.jpg",
+      "releaseYear": "2019"
+    },
+    {
+      "id": 6,
+      "name": "Batwoman",
+      "genre": "Fantastic",
+      "image": "assets/images/batwoman.jpg",
+      "releaseYear": "2019"
+    },
+    {
+      "name": "Jocker",
+      "genre": "Crime | Drama | Thriller",
+      "image": "assets/images/jocker.jpg",
+      "releaseYear": "2019",
+      "id": 7
+    },
+    {
+      "name": "Ice Age: Collision Course",
+      "genre": "Animate | Adventuere",
+      "image": "assets/images/ice-age.jpg",
+      "releaseYear": "2016",
+      "id": 8
+    },
+    {
+      "name": "Let It Snow ",
+      "genre": "Comedy",
+      "image": "assets/images/let-it-snow.jpg",
+      "releaseYear": "2019",
+      "id": 9
+    },
+    {
+      "name": "The Spirit of Christmas",
+      "genre": "Drama",
+      "image": "assets/images/spirit-of-christmas.jpg",
+      "releaseYear": "2015",
+      "id": 10
+    },
+    {
+      "name": "Dora and the Lost City of Gold",
+      "genre": "Adventure",
+      "image": "assets/images/dora.jpg",
+      "releaseYear": "2019",
+      "id": 11
+    },
+    {
+      "name": "Wanted",
+      "genre": "Aktion",
+      "image": "assets/images/wanted.jpg",
+      "releaseYear": "2008",
+      "id": 12
     }
   ]
 }
