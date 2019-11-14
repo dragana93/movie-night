@@ -27,20 +27,6 @@
       "genre": "Action & adventure",
       "image": "assets/images/maleficent.jpg",
       "releaseYear": "2019"
-    },
-    {
-      "name": "Terminator: Dark fate",
-      "genre": "Action",
-      "image": "https://m.media-amazon.com",
-      "releaseYear": "2019",
-      "id": 5
-    },
-    {
-      "name": "Terminator",
-      "genre": "Action",
-      "image": "assets/images/twilight.jpg",
-      "releaseYear": "2019",
-      "id": 6
     }
   ]
 }

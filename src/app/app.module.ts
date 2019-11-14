@@ -9,9 +9,16 @@ import { NavbarComponent } from "./navbar/navbar.component";
 import { NavbarService } from "./services/navbar.service";
 import { MovieService } from "./services/movie.service";
 
+import { BrowserAnimationsModule } from "@angular/platform-browser/animations";
+
 @NgModule({
   declarations: [AppComponent, NavbarComponent],
-  imports: [BrowserModule, AppRoutingModule, HttpClientModule],
+  imports: [
+    BrowserModule,
+    AppRoutingModule,
+    HttpClientModule,
+    BrowserAnimationsModule
+  ],
   providers: [NavbarService, MovieService],
   bootstrap: [AppComponent]
 })
